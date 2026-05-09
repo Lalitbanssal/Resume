@@ -8,22 +8,15 @@ export default function InternalDashboard() {
           of WMM meter XML logs.
         </p>
 
-        {/* Video Player Section */}
-        <div className="mb-12">
-          <video
-            className="w-full max-w-sm rounded-2xl shadow-2xl border border-zinc-800"
-            controls
-            autoPlay
-            loop
-            muted
-            playsInline>
-            {/* Make sure the path matches where you put the video in the public folder */}
-            <source src="/videos/dashboard-demo.mp4" type="video/mp4" />
-            Your browser does not support the video tag.
-          </video>
-          <p className="text-sm text-zinc-500 mt-3 text-center">
-            Live Demo: Channel Information Search & Automated XML Log Processing
-          </p>
+
+        {/* Project Impact Summary */}
+        <div className="mb-12 p-6 bg-zinc-900 rounded-2xl border border-zinc-800 shadow-xl">
+          <h3 className="text-xl font-bold text-white mb-4">Project Impact & Architecture</h3>
+          <ul className="list-disc list-inside text-zinc-400 space-y-2">
+            <li>Designed and deployed an automated dashboard to monitor channel information.</li>
+            <li>Engineered an automated XML log processing pipeline, reducing manual operational workload by 70–80%.</li>
+            <li>Built with a focus on high-efficiency data retrieval and secure, role-based access.</li>
+          </ul>
         </div>
 
         <div className="space-y-8">
