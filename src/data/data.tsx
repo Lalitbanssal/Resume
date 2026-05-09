@@ -41,7 +41,6 @@ import {
 export const homePageMeta: HomepageMeta = {
   title: 'Lalit Bansal | Python Developer & Operations Engineer',
   description: 'Portfolio of Lalit Bansal, a software engineer specializing in Python automation, Generative AI (RAG), and operational efficiency tools.',
-  image: '/og-image.jpg',
 };
 
 /**
