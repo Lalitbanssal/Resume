@@ -19,6 +19,7 @@ import porfolioImage5 from '../images/portfolio/portfolio-5.jpg';
 import porfolioImage6 from '../images/portfolio/portfolio-6.jpg';
 import porfolioImage7 from '../images/portfolio/portfolio-7.jpg';
 import porfolioImage8 from '../images/portfolio/portfolio-8.jpg';
+import porfolioImage11 from '../images/portfolio/portfolio-11.jpg';
 
 import profilepic from '../images/profilepic.jpg';
 import testimonialImage from '../images/testimonial.webp';
@@ -153,6 +154,13 @@ export const skills: SkillGroup[] = [
  * Portfolio section
  */
 export const portfolioItems: PortfolioItem[] = [
+    {
+    title: 'Simple RAG Q&A System',
+    description:
+      'A fully decoupled, production-ready Retrieval-Augmented Generation (RAG) API built with FastAPI, LangChain, and Qdrant Cloud. Features automated document ingestion and real-time vector search to eliminate LLM hallucinations with zero-retraining knowledge updates.',
+    url: '/projects/simplerag',
+    image: porfolioImage11,
+  },
   {
     title: 'Internal Operations Dashboard',
     description:
